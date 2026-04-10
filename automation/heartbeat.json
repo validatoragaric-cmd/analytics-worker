@@ -1,0 +1,25 @@
+{
+  "service": "analytics-worker",
+  "status": "healthy",
+  "timestamp": "2024-01-27T10:00:00Z",
+  "version": "1.2.3",
+  "uptime_seconds": 3600,
+  "cpu_usage": 0.15,
+  "memory_usage_mb": 256,
+  "queue_size": 10,
+  "last_processed_item_timestamp": "2024-01-27T09:59:55Z",
+  "environment": "production",
+  "dependencies": {
+    "database": {
+      "status": "connected",
+      "latency_ms": 10
+    },
+    "message_queue": {
+      "status": "healthy",
+      "queue_depth": 5
+    }
+  },
+  "custom_metrics": {
+    "processed_events_per_minute": 60
+  }
+}
